@@ -95,6 +95,7 @@ public class MainActivity1 extends AppCompatActivity {
 
 
     private void addDataSet() {
+        //for checking the unittestbranch
         DatabaseHelperClass databaseHelperClass = new DatabaseHelperClass(this);
         List<EmployeeModelClass> employeeModelClasses = databaseHelperClass.getEmployeeList();
 
